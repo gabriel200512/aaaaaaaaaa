@@ -12,23 +12,24 @@
         android:gravity="clip_horizontal"
         android:orientation="vertical">
 
-        <ImageView
-            android:scaleType="centerInside"
-            android:id="@+id/idImgCassio"
-            android:layout_width="190dp"
-            android:layout_height="240dp"
-            android:src="@drawable/cassio"/>
-
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="clip_vertical"
-            android:layout_margin="30sp"
-            android:text="O Rei da Montanha"
-            android:textColor="#000"
-            android:textSize="15sp"
-            android:textStyle="bold" />
+            android:layout_margin="8sp"
+            android:text="Cassio"
+            android:textAllCaps="true" />
+
+        <ImageView
+            android:id="@+id/idImgCassio"
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/cassio" />
+
+
     </LinearLayout>
+
 
 </com.google.android.material.card.MaterialCardView>
